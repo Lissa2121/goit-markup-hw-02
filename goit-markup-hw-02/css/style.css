@@ -1,0 +1,272 @@
+/* Цвет фона
+        #FFFFFF, #2F303A, #F5F5F5, #F5F4FA, #2F303A, #2196F3
+    */
+
+    /* Цвет
+        #000000, #2196F3, #212121, #757575, #FFFFFF
+        футер rgba(255, 255, 255, 0.6);
+    */
+
+    /* текст
+                 Roboto 400 900 700
+        Raleway
+    */
+
+/* Лого */
+
+    .one, .black {
+        ont-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calc(31/26);
+        letter-spacing: 0.03em;
+        color: #2196F3
+    }
+
+        .black {
+            color: #000000
+        }
+
+    /* Крыша */
+
+    .body {
+        font-family: "Roboto", "Raleway";
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .list {
+        list-style: none;
+    }
+ 
+
+    .header {
+        background-color: #FFFFFF;
+    }
+    
+    .items {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #212121
+    }
+
+
+    .navigation {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.02em;
+        color: #757575
+    }
+
+    .navi:hover,  .navi:focus {
+        color: #2196F3;
+    }
+
+        /* Ефективні рішення для вашого бізнесу */
+
+    .hero{
+        background-color: #2F303A;
+    }
+
+    .main {
+    background: #F5F5F5
+    }
+    
+    .title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: calc(60/44);
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF
+   
+    }
+        
+    .title-button {
+        background: #2196F3;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: calc(30/16);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+       
+        color: #FFFFFF;
+    
+    }
+
+
+        /* Наші переваги */
+
+    .visually-hidden {
+         position: absolute;
+         white-space: nowrap;
+         width: 1px;
+         height: 1px;
+         overflow: hidden;
+         border: 0;
+         padding: 0;
+         clip: rect(0 0 0 0);
+         clip-path: inset(50%);
+         margin: -1px;
+    }
+
+    .subject {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121
+    }
+
+    .text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: #757575
+    }
+
+        /* Чим ми займаємося */
+
+    .caption {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121
+    }
+
+/* Наша команда */
+
+    .subject {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121
+        }
+
+    .name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121
+        }
+
+    .desc {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575
+        }
+
+   /* Подвал */
+
+    .footer {
+        background-color: #2F303A;
+        }
+
+        .one, .two {
+            font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 31px;
+                letter-spacing: 0.03em;
+            
+                color: #2196F3
+        }
+
+        .two {
+        color: #FFFFFF
+        }
+      
+    .maps {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: #FFFFFF
+        }
+
+    .mail {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6)
+        }
+
+    .tel {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6)
+        }
+
+
+
+
+
+
+
+
+        /* Портфоліо */
+
+        .main-portfolio {
+            background-color: #F5F5F5;;
+        }
+
+        .button:hover {
+            background: #2196F3
+
+        }
+        .button:hover {
+            color: #FFFFFF
+        }
+
+
+        .portfolio-button {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: calc(26/16);
+            text-align: center;
+            letter-spacing: 0.03em;
+             color: #212121
+        }
+
+        .portfolio-title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height:  calc(36/18);
+            letter-spacing: 0.06em;
+            color: #212121
+        }
+
+        .portfolio-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: calc(30/16);
+            letter-spacing: 0.03em;
+            color: #757575
+        }
