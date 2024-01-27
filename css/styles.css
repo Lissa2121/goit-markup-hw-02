@@ -69,15 +69,14 @@ a {
     color: #404bbf;
 }
 
-.address {}
+.address {
+    font-style: normal;
+}
 
 .header-address-list {}
 
 .header-address-item {}
 
-address {
-    font-style: normal;
-}
 
 .header-address-link {
     color: var(--SLATE, #434455);
